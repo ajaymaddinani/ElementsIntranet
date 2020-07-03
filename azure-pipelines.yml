@@ -1,19 +1,18 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+# ASP.NET
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
+  
+- task: mirror-git-repository-vsts-task@1
+  inputs:
+    sourceGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
+    sourceGitRepositoryPersonalAccessToken: '2v5rbzeykn5czsmkouqzbwctnmkwnehchdexbmiyjpkxf25jx5ya'
+    destinationGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsInternet/_git/ElementsInternet'
+    destinationGitRepositoryPersonalAccessToken: 'fhmga4l7q4jknbvu5jg3bpp7lkopn5j4k3aojbkh3jsnmcwskf3q'
 
-steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
