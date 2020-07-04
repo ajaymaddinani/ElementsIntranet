@@ -8,11 +8,11 @@ trigger:
 
 pool:
   vmImage: 'windows-latest'
-  
+
 - task: mirror-git-repository-vsts-task@1
   inputs:
     sourceGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
-    sourceGitRepositoryPersonalAccessToken: '2v5rbzeykn5czsmkouqzbwctnmkwnehchdexbmiyjpkxf25jx5ya'
+    sourceGitRepositoryPersonalAccessToken: 'tfhwkqplxu5busrl3zudgkairmcswbpz5rsiyjh4kmuo2agemn2q'
     destinationGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsInternet/_git/ElementsInternet'
-    destinationGitRepositoryPersonalAccessToken: 'fhmga4l7q4jknbvu5jg3bpp7lkopn5j4k3aojbkh3jsnmcwskf3q'
+    destinationGitRepositoryPersonalAccessToken: 'tfhwkqplxu5busrl3zudgkairmcswbpz5rsiyjh4kmuo2agemn2q'
 
