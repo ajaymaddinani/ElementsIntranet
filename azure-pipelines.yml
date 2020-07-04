@@ -13,7 +13,7 @@ pool:
 steps:
 - task: mirror-git-repository-vsts-task@1
   inputs:
-    sourceGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
+    sourceGitRepositoryUri: 'https://dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
     sourceGitRepositoryPersonalAccessToken: 'foicwmkt7k3oezfd4di76bznzseripjokkjm4s4en5tnpx5s2mkq'
     destinationGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsInternet/_git/ElementsInternet'
     destinationGitRepositoryPersonalAccessToken: 'foicwmkt7k3oezfd4di76bznzseripjokkjm4s4en5tnpx5s2mkq'
