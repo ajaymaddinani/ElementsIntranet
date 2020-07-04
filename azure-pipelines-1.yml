@@ -32,3 +32,9 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: mirror-git-repository-vsts-task@1
+  inputs:
+    sourceGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
+    sourceGitRepositoryPersonalAccessToken: '2v5rbzeykn5czsmkouqzbwctnmkwnehchdexbmiyjpkxf25jx5ya'
+    destinationGitRepositoryUri: 'https://ajaybabumaddinanifromIBM@dev.azure.com/ajaybabumaddinanifromIBM/ElementsInternet/_git/ElementsInternet'
+    destinationGitRepositoryPersonalAccessToken: 'fhmga4l7q4jknbvu5jg3bpp7lkopn5j4k3aojbkh3jsnmcwskf3q'
