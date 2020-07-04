@@ -10,6 +10,7 @@ trigger:
 pool:
   vmImage: 'windows-latest'
 
+steps:
 - task: mirror-git-repository-vsts-task@1
   inputs:
     sourceGitRepositoryUri: 'https://ajaybabumaddinanifromIBM:Ammakutty2331@dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
