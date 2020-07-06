@@ -16,6 +16,5 @@ steps:
   inputs:
     sourceGitRepositoryUri: 'https://dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
     sourceGitRepositoryPersonalAccessToken: 'foicwmkt7k3oezfd4di76bznzseripjokkjm4s4en5tnpx5s2mkq'
-    destinationGitRepositoryUri: 'https://rocket01.galaxy.edb.gov.sg/edb.ajaybabu/mirror-primry.git'
-    destinationGitRepositoryPersonalAccessToken: 'R69_cR_54KNQHahm3QGQ'
-
+    destinationGitRepositoryUri: 'https://github.com/ajaymaddinani/ElementsIntranet.git'
+    destinationGitRepositoryPersonalAccessToken: '1a1b44acd3ff5f4ad4dae02fcf919aec677006f2'
