@@ -14,6 +14,8 @@ pool:
 steps:
 - task: BatchScript@1
   inputs:
+    - checkout: self
+       persistCredentials: true
     filename: 'merge.bat'
 - task: mirror-git-repository-vsts-task@1
   inputs:
