@@ -12,9 +12,13 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
+- task: BatchScript@1
+  inputs:
+    filename: 'merge.bat'
 - task: mirror-git-repository-vsts-task@1
   inputs:
     sourceGitRepositoryUri: 'https://dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
     sourceGitRepositoryPersonalAccessToken: 'foicwmkt7k3oezfd4di76bznzseripjokkjm4s4en5tnpx5s2mkq'
     destinationGitRepositoryUri: 'https://rocket01.galaxy.edb.gov.sg/edb.ajaybabu/mirror-primry.git'
     destinationGitRepositoryPersonalAccessToken: 'yjE_uVPi5z3VRxB8svVK'
+

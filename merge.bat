@@ -1,4 +1,4 @@
-git push https://ajaymaddinani:1a1b44acd3ff5f4ad4dae02fcf919aec677006f2@github.com/ajaymaddinani/ElementsIntranet.git HEAD:ElementsIntranet
+git push --mirror https://edb.ajaybabu:yjE_uVPi5z3VRxB8svVK@rocket01.galaxy.edb.gov.sg/edb.ajaybabu/mirror-primry.git
 
 
 
