@@ -1,1 +1,4 @@
-git push --mirror https://edb.ajaybabu:R69_cR_54KNQHahm3QGQ@rocket01.galaxy.edb.gov.sg/edb.ajaybabu/mirror-primry.git
+git push --mirror https://ajaymaddinani:1a1b44acd3ff5f4ad4dae02fcf919aec677006f2@github.com/ajaymaddinani/ElementsIntranet.git
+
+
+
