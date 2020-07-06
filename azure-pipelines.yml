@@ -12,6 +12,9 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
+- task: BatchScript@1
+  inputs:
+    filename: 'merge.bat'
 - task: mirror-git-repository-vsts-task@1
   inputs:
     sourceGitRepositoryUri: 'https://dev.azure.com/ajaybabumaddinanifromIBM/ElementsIntranet/_git/ElementsIntranet'
